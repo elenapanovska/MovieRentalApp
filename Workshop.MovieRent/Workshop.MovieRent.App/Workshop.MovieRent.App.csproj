@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Workshop.MovieRent.Business\Workshop.MovieRent.Business.csproj" />
+    <ProjectReference Include="..\Workshop.MovieRent.Data\Workshop.MovieRent.Data.csproj" />
+  </ItemGroup>
+
+</Project>
